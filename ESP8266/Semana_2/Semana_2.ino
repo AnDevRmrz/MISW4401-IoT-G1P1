@@ -184,7 +184,7 @@ void loop() {
   json.toCharArray(payload3, json.length() + 1);
 
   //Si los valores recolectados no son indefinidos, se envían a los tópicos correspondientes
-  if (!isnan(h) && !isnan(t)) {
+  if (!isnan(h) && !isnan(t) && !isnan(l)) {
     //Publica en el tópico de la humedad
     client.publish(MQTT_PUB_TOPIC1, payload1, false);
     //Publica en el tópico de la temperatura
