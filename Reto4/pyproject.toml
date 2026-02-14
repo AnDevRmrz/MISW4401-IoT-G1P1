@@ -1,0 +1,9 @@
+[project]
+name = "mqtt-aws-mosquitto"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.12"
+dependencies = [
+    "black>=26.1.0",
+    "paho-mqtt==1.6.1",
+]
