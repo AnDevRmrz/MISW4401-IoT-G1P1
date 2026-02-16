@@ -4,13 +4,13 @@ port=8082
 username="admin"
 password="admin1234"
 
-pub_threads=10
+pub_threads=1000
 pub_duration=30
 pub_thread_duration=$((30*1))
 pub_loop=10
 pub_loop_count=50
 
-sub_threads=100
+sub_threads=1000
 sub_duration=30
 sub_thread_duration=$((30*1))
 sub_loop=30
