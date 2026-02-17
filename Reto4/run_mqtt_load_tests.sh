@@ -1,20 +1,20 @@
 jmeter_load_test_plan="MQTTLoadTest.jmx"
-server="3.223.195.124"
+server="3.210.202.184"
 port=8082
 username="admin"
 password="admin1234"
 
-pub_threads=1000
+pub_threads=600
 pub_duration=30
 pub_thread_duration=$((30*1))
 pub_loop=10
-pub_loop_count=50
+pub_loop_count=1000
 
-sub_threads=1000
+sub_threads=400
 sub_duration=30
 sub_thread_duration=$((30*1))
 sub_loop=30
-sub_loop_count=50
+sub_loop_count=2000
 
 
 LOG_FILE="./test_execution.log"
