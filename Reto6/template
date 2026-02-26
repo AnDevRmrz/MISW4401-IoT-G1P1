@@ -525,7 +525,7 @@
   "Mappings": {
     "TimescaleDBAmiMap4B9B5D53": {
       "us-east-1": {
-        "ami": "ami-04505e74c0741db8d"
+        "ami": "ami-04680790a315cd58d"
       }
     },
     "MQTTBrokerAmiMapD8ABDC65": {
